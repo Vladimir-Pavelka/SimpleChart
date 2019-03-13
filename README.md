@@ -1,2 +1,2 @@
 # SimpleChart
-A simple ready-made chart window which launches in a new thread
+A simple single series ready-made WPF chart window which launches in a separate thread. Built on top of LiveCharts.
