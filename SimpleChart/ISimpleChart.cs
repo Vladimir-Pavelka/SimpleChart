@@ -20,7 +20,7 @@
         int PointCountRescaleAxisX { get; set; }
 
         /// <summary>
-        /// Gets or sets whether an animation is played as new points are added to the chart
+        /// Gets or sets whether an animation is played as new points are added to the chart. Default value is false
         /// </summary>
         bool Animate { get; set; }
 
