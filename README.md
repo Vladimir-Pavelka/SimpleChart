@@ -5,7 +5,7 @@ A simple single series ready-made WPF chart window which launches in a separate 
 
 ## Usage
 1. Install the [SimpleChart](https://www.nuget.org/packages/SimpleChart/) nuget package.
-2. Create an instance of the chart, which will run as a standalone window in a separate thread. (The thread finishes when the chart window is closed).
+2. Create an instance of the chart, which will run as a standalone window in a separate thread. 
 ```csharp
 ISimpleChart chart = SimpleChart.LaunchInNewThread();
 ```
@@ -20,6 +20,6 @@ chart.AddPoint(-3.7);
 chart.SetSeries(new [] { 7, 4.2, -1 });
 ```
 
-For customization options, explore the [`ISimpleChart`](https://github.com/Vladimir-Pavelka/SimpleChart/blob/master/SimpleChart/ISimpleChart.cs) interface. Accessing any of its methods/properties will not cause UI related cross-thread problems.
+For additional options, explore the [`ISimpleChart`](https://github.com/Vladimir-Pavelka/SimpleChart/blob/master/SimpleChart/ISimpleChart.cs) interface. Accessing any of its methods/properties will not cause UI related cross-thread problems.
 
-This is a simple 'ready to go' chart, if you need more customization, please use [LiveCharts](https://lvcharts.net/) directly.
+This is a very simple 'ready to go' chart, if you need more customization, please use [LiveCharts](https://lvcharts.net/) directly.
