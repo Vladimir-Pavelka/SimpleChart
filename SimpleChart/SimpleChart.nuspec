@@ -1,0 +1,17 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>SimpleChart</id>
+    <version>1.0.0</version>
+    <title>SimpleChart</title>
+    <authors>Vladimir Pavelka</authors>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <projectUrl>https://github.com/Vladimir-Pavelka/SimpleChart</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A simple single series ready-made chart WPF window which launches in a separate thread. Built on top of LiveCharts</description>
+    <summary>A simple single series ready-made chart WPF window which launches in a separate thread. Built on top of LiveCharts</summary>
+    <releaseNotes>Initial release</releaseNotes>
+    <copyright>Copyright 2019</copyright>
+    <tags>simple chart series plot wpf standalone SimpleChart LiveCharts</tags>
+  </metadata>
+</package>
